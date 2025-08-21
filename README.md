@@ -2,10 +2,7 @@
 
 ## Overview
 
-A TypeScript-powered backend service designed to provide a strong
-foundation for scalable, maintainable web applications. It features
-structured modules for configuration, logging, validation, routing, and
-database interactions via Prisma.
+A TypeScript-based backend service for a To-Do application, developed as part of a coding test for Nooro. It includes modules for configuration, logging, validation, routing, and database management using Prisma, ensuring clean architecture and maintainable code.
 
 ## Directory Structure
 
