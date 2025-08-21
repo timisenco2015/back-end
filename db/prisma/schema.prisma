@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model tasks {
+  id         Int     @id @unique(map: "id_UNIQUE") @default(autoincrement())
+  title      String? @db.VarChar(100)
+  color      String? @db.VarChar(30)
+  status     String? @db.VarChar(25)
+  timestamps String? @db.VarChar(40)
+}
